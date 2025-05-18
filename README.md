@@ -1,238 +1,310 @@
-# n8n_automations
-This repository contains a collection of n8n automation templates sourced from the internet. These templates are designed to help automate a wide range of tasks and workflows using n8n, making it easier for users to discover and use ready-made automations for various platforms and services.
+
+![](assets\banner.jpg)
+
+<div align="center">
+
+# 🚀 Awesome n8n Templates
+
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+*Коллекция продвинутых шаблонов автоматизации для платформы n8n*
+
+[📚 Документация](https://docs.n8n.io) | [🌟 Начало работы](#-общее-описание) | [📦 Установка n8n](https://docs.n8n.io/getting-started/installation/)
+
+</div>
 
 ---
 
-## Disclaimer
-All automation templates in this repository were found online and are uploaded here solely for easy access and sharing. None of the templates are created or owned by the repository author. If you encounter any issues, errors, or damages resulting from the use of these templates, the repository author assumes no responsibility or liability. All rights to the original templates belong to their respective creators.
+## 📚 Содержание
+
+<details open>
+<summary><h3>📑 Быстрая навигация</h3></summary>
+
+| Раздел | Описание | Статус |
+|:-------|:----------|:--------|
+| [🌐 Общее описание](#-общее-описание) | Обзор коллекции и её назначение | [![Status](https://img.shields.io/badge/status-ready-success)]() |
+| [🔍 Категории воркфлоу](#-категории-воркфлоу) | Классификация рабочих процессов | [![Status](https://img.shields.io/badge/status-updating-blue)]() |
+| [⭐ Ключевые воркфлоу](#-ключевые-воркфлоу) | Основные процессы и связи | [![Status](https://img.shields.io/badge/status-stable-success)]() |
+| [📋 Шаблоны](#-примечательные-шаблоны) | Выдающиеся примеры | [![Status](https://img.shields.io/badge/status-new-yellow)]() |
+| [🔧 Структура](#-техническая-структура) | Архитектура и компоненты | [![Status](https://img.shields.io/badge/status-stable-success)]() |
+| [📝 Рекомендации](#-рекомендации-по-использованию) | Практики и советы | [![Status](https://img.shields.io/badge/status-ready-success)]() |
+| [🚀 Развитие](#-потенциал-развития) | Планы расширения | [![Status](https://img.shields.io/badge/status-active-blue)]() |
+
+</details>
 
 ---
 
-☕ Before diving into the long list of categories and templates, grab your coffee-and if you enjoy my work, don’t forget to buy me a coffee! 
+## 🎯 Общее описание
 
-<a href="https://buymeacoffee.com/enescingoz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<details open>
+<summary><h3>📌 О проекте</h3></summary>
 
---- 
+> 💡 **Коллекция автоматизированных рабочих процессов для n8n**
 
-## Categories & Template List
+Проект представляет собой курируемый набор шаблонов для различных сценариев автоматизации, включающий:
 
----
+- 🤖 Интеграции с AI-сервисами
+- 📊 Инструменты анализа данных
+- 🔄 Автоматизацию бизнес-процессов
+- 🌐 Интеграции веб-сервисов
 
-## 🧵 If you want to scrape Twitter (X) threads, definitely check this workflow
-
-Looking to extract and merge entire Twitter (X) threads quickly and affordably?  
-Check out my [n8n Twitter Thread Fetcher workflow](https://n8n.io/workflows/4088-extract-and-merge-twitter-x-threads-using-twitterapiio/)-it’s lightning-fast, cost-effective, and perfect for automating Twitter thread extraction for research, content curation, or archiving!
-
----
-
-### **Gmail & Email Automation**
-
-- Auto-label incoming Gmail messages with AI nodes
-- Basic Automatic Gmail Email Labelling with OpenAI and Gmail API
-- Compose reply draft in Gmail with OpenAI Assistant
-- Extract spending history from gmail to google sheet
-- Gmail AI Auto-Responder: Create Draft Replies to incoming emails
-- Send specific PDF attachments from Gmail to Google Drive using OpenAI
-- Summarize your emails with A.I. (via Openrouter) and send to Line messenger
-- Effortless Email Management with AI-Powered Summarization & Review
-- Analyze & Sort Suspicious Email Contents with ChatGPT
-- Analyze Suspicious Email Contents with ChatGPT Vision
-- A Very Simple "Human in the Loop" Email Response System Using AI and IMAP
-- Auto Categorise Outlook Emails with AI
-- Microsoft Outlook AI Email Assistant with contact support from Monday and Airtable
-- 📈 Receive Daily Market News from FT.com to your Microsoft outlook inbox
-
-### **Telegram**
-
-- Agentic Telegram AI bot with LangChain nodes and new tools
-- 🤖🧠 AI Agent Chatbot + LONG TERM Memory + Note Storage + Telegram
-- AI-Powered Children’s Arabic Storytelling on Telegram
-- AI-Powered Children’s English Storytelling on Telegram with OpenAI
-- Automated AI image analysis and response via Telegram
-- Angie, Personal AI Assistant with Telegram Voice and Text
-- Chat with OpenAIs GPT via a simple Telegram Bot
-- Telegram AI bot assistant: ready-made template for voice & text messages
-- Telegram AI Bot: NeurochainAI Text & Image - NeurochainAI Basic API Integration
-- Telegram AI bot with LangChain nodes
-- Telegram AI Chatbot
-- Telegram Bot with Supabase memory and OpenAI assistant integration
-- Telegram chat with PDF
-- 🤖 Telegram Messaging Agent for Text_Audio_Images
-- Telegram to Spotify with OpenAI
-- Send a random recipe once a day to Telegram
-- Detect toxic language in Telegram messages
-- Translate Telegram audio messages with AI (55 supported languages)
-
-### **Google Drive & Google Sheets**
-
-- Automated End-to-End Fine-Tuning of OpenAI Models with Google Drive Integration
-- Automatic Background Removal for Images in Google Drive
-- Build an OpenAI Assistant with Google Drive Integration
-- RAG Chatbot for Company Documents using Google Drive and Gemini
-- RAG_Context-Aware Chunking: Google Drive to Pinecone via OpenRouter & Gemini
-- Summarize the New Documents from Google Drive and Save Summary in Google Sheet
-- Upload to Instagram and Tiktok from Google Drive
-- Author and Publish Blog Posts From Google Sheets
-- Chat with a Google Sheet using AI
-- Chat with your event schedule from Google Sheets in Telegram
-- Qualify new leads in Google Sheets via OpenAI’s GPT-4
-- Screen Applicants With AI, notify HR and save them in a Google Sheet
-- Summarize Google Sheets form feedback via OpenAI’s GPT-4
-
-### **Slack**
-
-- Automated Notion task reminders via Slack
-- AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack
-- Creating an AI Slack Bot with Google Gemini
-- Customer Support Channel and Ticketing System with Slack and Linear
-- Enhance Security Operations with the Qualys Slack Shortcut Bot!
-- Sentiment Analysis Tracking on Support Issues with Linear and Slack
-- IT Ops AI SlackBot Workflow - Chat with your knowledge base
-
-### **Notion**
-
-- Add positive feedback messages to a table in Notion
-- Analyse papers from Hugging Face with AI and store them in Notion
-- Notion AI Assistant Generator
-- Notion knowledge base AI assistant
-- Notion to Pinecone Vector Store Integration
-- Store Notion’s Pages as Vector Documents into Supabase with OpenAI
-- Upsert huge documents in a vector store with Supabase and Notion
-- Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr
-- Automate Competitor Research with Exa.ai, Notion and AI Agents
-
-### **Airtable**
-
-- AI Agent for project management and meetings with Airtable and Fireflies
-- AI Agent to chat with Airtable and analyze data
-- Get Airtable data via AI and Obsidian Notes
-- Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr
-- vAssistant for Hubspot Chat using OpenAi and Airtable
-- Handling Job Application Submissions with AI and n8n Forms
-
-### **OpenAI & LLMs**
-
-- Advanced AI Demo (Presented at AI Developers #14 meetup)
-- AI agent chat
-- AI agent that can scrape webpages
-- AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow
-- AI Customer feedback sentiment analysis
-- AI Data Extraction with Dynamic Prompts and Airtable
-- AI Data Extraction with Dynamic Prompts and Baserow
-- AI-Driven Lead Management and Inquiry Automation with ERPNext & n8n
-- AI Fitness Coach Strava Data Analysis and Personalized Training Insights
-- AI-Powered Candidate Shortlisting Automation for ERPNext
-- AI-Powered Email Automation for Business: Summarize & Respond with RAG
-- AI-powered email processing autoresponder and response approval (Yes/No)
-- AI-Powered RAG Workflow For Stock Earnings Report Analysis
-- AI-Powered Social Media Amplifier
-- AI Powered Web Scraping with Jina, Google Sheets and OpenAI: the EASY way
-- AI-powered WooCommerce Support-Agent
-- ⚡AI-Powered YouTube Video Summarization & Analysis
-- AI_ Ask questions about any data source (using the n8n workflow retriever)
-- AI_ Summarize podcast episode and enhance using Wikipedia
-- AI Voice Chatbot with ElevenLabs & OpenAI for Customer Service and Restaurants
-- AI Voice Chat using Webhook, Memory Manager, OpenAI, Google Gemini & ElevenLabs
-- AI web researcher for sales
-- AI Youtube Trend Finder Based On Niche
-- AI Automated HR Workflow for CV Analysis and Candidate Evaluation
-- AI Agent with Ollama for current weather and wiki
-- AI Agent _ Google calendar assistant using OpenAI
-- AI Agent to chat with Supabase_PostgreSQL DB
-- AI Agent To Chat With Files In Supabase Storage
-- AI Agent to chat with you Search Console Data, using OpenAI and Postgres
-- AI Social Media Caption Creator creates social media post captions in Airtable
-- AI-Generated Summary Block for WordPress Posts
-- AI Automated HR Workflow for CV Analysis and Candidate Evaluation
-
-### **WhatsApp**
-
-- Building Your First WhatsApp Chatbot
-- Complete business WhatsApp AI-Powered RAG Chatbot using OpenAI
-- Respond to WhatsApp Messages with AI Like a Pro!
-- Automate Sales Meeting Prep with AI & APIFY Sent To WhatsApp
-
-### **Discord**
-
-- Discord AI-powered bot
-- Send daily translated Calvin and Hobbes Comics to Discord
-- Share YouTube Videos with AI Summaries on Discord
-
-### **WordPress**
-
-- Auto-Categorize blog posts in wordpress using A.I.
-- Auto-Tag Blog Posts in WordPress with AI
-- Automate Blog Creation in Brand Voice with AI
-- Automate Content Generator for WordPress with DeepSeek R1
-- WordPress - AI Chatbot to enhance user experience - with Supabase and OpenAI
-- Write a WordPress post with AI (starting from a few keywords)
-
-### **PDF & Document Processing**
-
-- Ask questions about a PDF using AI
-- Chat with PDF docs using AI (quoting sources)
-- Convert URL HTML to Markdown Format and Get Page Links
-- Extract and process information directly from PDF using Claude and Gemini
-- Extract data from resume and create PDF with Gotenberg
-- Manipulate PDF with Adobe developer API
-- Parse PDF with LlamaParse and save to Airtable
-- Transcribe Audio Files, Summarize with GPT-4, and Store in Notion
-- Transcribing Bank Statements To Markdown Using Gemini Vision AI
-
-### **Other Integrations & Use Cases**
-
-- Zoom AI Meeting Assistant creates mail summary, ClickUp tasks and follow-up call
-- Siri AI Agent: Apple Shortcuts powered voice template
-- Text automations using Apple Shortcuts
-- LINE Assistant with Google Calendar and Gmail Integration
-- Monthly Spotify Track Archiving and Playlist Classification
-- Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API
-- Enhance Customer Chat by Buffering Messages with Twilio and Redis
-- Handling Appointment Leads and Follow-up With Twilio, Cal.com and AI
-- Visualize your SQL Agent queries with OpenAI and Quickchart.io
-- UTM Link Creator & QR Code Generator with Scheduled Google Analytics Reports
-
-### **AI Research, RAG, and Data Analysis**
-
-- AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack
-- Analyze tradingview.com charts with Chrome extension, N8N and OpenAI
-- Build a Financial Documents Assistant using Qdrant and Mistral.ai
-- Building RAG Chatbot for Movie Recommendations with Qdrant and Open AI
-- Deduplicate Scraping AI Grants for Eligibility using AI
-- Enrich Pipedrive’s Organization Data with OpenAI GPT-4o & Notify it in Slack
-- Extract insights & analyse YouTube comments via AI Agent chat
-- Make OpenAI Citation for File Retrieval RAG
-- Summarize SERPBear data with AI (via Openrouter) and save it to Baserow
-- Summarize Umami data with AI (via Openrouter) and save it to Baserow
-
-### **Instagram, Twitter, Social Media**
-
-- AI agent for Instagram DM_inbox. Manychat + Open AI integration
-- Generate Instagram Content from Top Trends with AI Image Generation
-- Update Twitter banner using HTTP request
-- Twitter Virtual AI Influencer
-- Create dynamic Twitter profile banner
-- Post New YouTube Videos to X
-
-### **Forms & Surveys**
-
-- Email Subscription Service with n8n Forms, Airtable and AI
-- Handling Job Application Submissions with AI and n8n Forms
-- Qualifying Appointment Requests with AI & n8n Forms
-
-### **Database & Storage**
-
-- Chat with Postgresql Database
-- MongoDB AI Agent - Intelligent Movie Recommendations
-- Supabase Insertion & Upsertion & Retrieval
-- Upsert huge documents in a vector store with Supabase and Notion
-
-### **Other**
-
-- ALL_unique_nodes.txt (node reference)
-
-... and more !
+</details>
 
 ---
 
-If you would like to contribute additional templates or suggest new categories, feel free to open an issue or pull request!
+## 🔍 Категории воркфлоу
+
+<details open>
+<summary><h3>🤖 AI-ассистенты и чат-боты</h3></summary>
+
+| Тип | Описание | Сложность | Статус |
+|:-----|:----------|:------------|:--------|
+| Персональные ассистенты | Поддержка голоса и текста | ⭐⭐ | [![Status](https://img.shields.io/badge/status-active-success)]() |
+| Бизнес чат-боты | Клиентская поддержка | ⭐⭐⭐ | [![Status](https://img.shields.io/badge/status-stable-success)]() |
+| Мессенджер боты | Интеграции с Telegram, WhatsApp, Discord | ⭐⭐⭐⭐ | [![Status](https://img.shields.io/badge/status-beta-yellow)]() |
+
+```mermaid
+graph LR
+    A[Входящий запрос] --> B{Тип запроса}
+    B -->|Текст| C[NLP обработка]
+    B -->|Голос| D[Speech-to-Text]
+    C --> E[AI анализ]
+    D --> E
+    E --> F[Формирование ответа]
+    F --> G[Отправка пользователю]
+```
+
+</details>
+
+<details>
+<summary><h3>📊 Обработка данных и аналитика</h3></summary>
+
+| Категория | Инструменты | Интеграции |
+|:-----------|:-------------|:-------------|
+| 📈 Анализ данных | • Pandas<br>• NumPy<br>• Jupyter | Google Sheets, Excel |
+| 📊 Визуализация | • Plotly<br>• Matplotlib<br>• D3.js | Tableau, PowerBI |
+| 🤖 ML/AI | • TensorFlow<br>• PyTorch<br>• Scikit-learn | AWS, GCP, Azure |
+
+```mermaid
+flowchart TD
+    A[Источники данных] --> B[Предобработка]
+    B --> C{Тип анализа}
+    C -->|Статистика| D[Статистический анализ]
+    C -->|ML| E[Машинное обучение]
+    C -->|Визуализация| F[Создание отчетов]
+    D & E --> F
+    F --> G[Экспорт результатов]
+```
+
+</details>
+
+<details>
+<summary><h3>🔌 Интеграции с AI-сервисами</h3></summary>
+
+| Сервис | Статус | Возможности | Документация |
+|:--------|:---------|:-------------|:--------------|
+| OpenAI | [![Status](https://img.shields.io/badge/status-active-success)](https://openai.com) | GPT, DALL-E | [Docs](https://platform.openai.com/docs) |
+| Google Gemini | [![Status](https://img.shields.io/badge/status-beta-yellow)](https://gemini.google.com) | Мультимодальный AI | [Docs](https://ai.google.dev/docs) |
+| Mistral.ai | [![Status](https://img.shields.io/badge/status-new-blue)](https://mistral.ai) | Открытые модели | [Docs](https://docs.mistral.ai) |
+| Claude | [![Status](https://img.shields.io/badge/status-active-success)](https://anthropic.com) | Бизнес AI | [Docs](https://anthropic.com/claude) |
+| Ollama | [![Status](https://img.shields.io/badge/status-experimental-orange)](https://ollama.ai) | Локальные модели | [Docs](https://ollama.ai/docs) |
+
+</details>
+
+<details>
+<summary><h3>🔄 Автоматизация бизнес-процессов</h3></summary>
+
+| Процесс | Компоненты | Интеграции | Статус |
+|:---------|:------------|:------------|:--------|
+| HR Автоматизация | • Онбординг<br>• Учет времени<br>• Оценка KPI | Slack, Trello, Jira | [![Status](https://img.shields.io/badge/status-stable-success)]() |
+| Документооборот | • Генерация документов<br>• Согласование<br>• Архивация | Google Docs, OneDrive | [![Status](https://img.shields.io/badge/status-active-success)]() |
+| CRM Процессы | • Лид-менеджмент<br>• Воронка продаж<br>• Аналитика | HubSpot, Salesforce | [![Status](https://img.shields.io/badge/status-beta-yellow)]() |
+
+```mermaid
+stateDiagram-v2
+    [*] --> Инициация
+    Инициация --> Выполнение
+    Выполнение --> Проверка
+    Проверка --> Завершение
+    Проверка --> Корректировка
+    Корректировка --> Выполнение
+    Завершение --> [*]
+
+    state Выполнение {
+        [*] --> Задача1
+        Задача1 --> Задача2
+        Задача2 --> Задача3
+        Задача3 --> [*]
+    }
+```
+
+</details>
+
+---
+
+## 🌟 Ключевые воркфлоу
+
+<details open>
+<summary><h3>📊 Структура процессов</h3></summary>
+
+```mermaid
+graph TD
+    A[Коллекция n8n] --> B[AI Ассистенты]
+    A --> C[Обработка Данных]
+    A --> D[Бизнес-процессы]
+    A --> E[Интеграции]
+    
+    B --> B1[Чат-боты]
+    B --> B2[Голосовые ассистенты]
+    B --> B3[Специализированные агенты]
+    
+    C --> C1[Анализ текста]
+    C --> C2[Обработка изображений]
+    C --> C3[Работа с документами]
+    
+    D --> D1[HR автоматизация]
+    D --> D2[Email обработка]
+    D --> D3[CRM интеграции]
+    
+    E --> E1[OpenAI]
+    E --> E2[Google Services]
+    E --> E3[Базы данных]
+```
+
+</details>
+
+---
+
+## 🏆 Примечательные шаблоны
+
+<details open>
+<summary><h3>🔍 Топ шаблонов</h3></summary>
+
+### 1️⃣ Интеллектуальный веб-поиск
+
+[![Brave Search](https://img.shields.io/badge/Brave_Search-API-orange)](https://brave.com/search/api/)
+
+- 🔍 Использование Brave Search API
+- 📊 Семантическое ранжирование
+- 🤖 Интеграция с Google Gemini
+
+### 2️⃣ OpenAI примеры (5-в-1)
+
+[![OpenAI](https://img.shields.io/badge/OpenAI-API-412991)](https://openai.com)
+
+- 💬 Интеграция ChatGPT
+- 🎨 Генерация изображений DALL-E
+- 🗣️ Распознавание речи Whisper
+
+### 3️⃣ Персональный шоппер для WooCommerce
+
+[![WooCommerce](https://img.shields.io/badge/WooCommerce-Plugin-96588A)](https://woocommerce.com)
+
+- 🔄 RAG (Retrieval Augmented Generation)
+- 📁 Интеграция с Google Drive
+- 🛍️ Чат-бот для e-commerce
+
+</details>
+
+---
+
+## 🔧 Техническая структура
+
+<details>
+<summary><h3>⚙️ Архитектура проекта</h3></summary>
+
+```mermaid
+C4Context
+    title Архитектура автоматизации
+    
+    Person(user, "Пользователь", "Инициатор процесса")
+    System(n8n, "n8n", "Платформа автоматизации")
+    System_Ext(ext_services, "Внешние сервисы", "API интеграции")
+    System_Ext(storage, "Хранилище", "Данные и документы")
+    
+    Rel(user, n8n, "Запускает процессы")
+    Rel(n8n, ext_services, "Интегрируется")
+    Rel(n8n, storage, "Сохраняет данные")
+    Rel(ext_services, storage, "Обменивается данными")
+```
+
+<details>
+<summary>📄 Структура JSON файлов</summary>
+
+```json
+{
+  "workflow": {
+    "metadata": {
+      "name": "Example Workflow",
+      "version": "1.0.0"
+    },
+    "nodes": [],
+    "connections": {}
+  }
+}
+```
+</details>
+
+</details>
+
+---
+
+## 📋 Рекомендации по использованию
+
+<details open>
+<summary><h3>📝 Основные шаги</h3></summary>
+
+1. 📚 Изучить [документацию](https://docs.n8n.io) каждого воркфлоу
+2. 🔐 Настроить необходимые учетные данные
+3. 🧪 Протестировать в тестовой среде
+4. ⚙️ Адаптировать параметры
+
+```mermaid
+gantt
+    title Процессы автоматизации
+    dateFormat  YYYY-MM-DD
+    section HR
+    Рекрутинг           :a1, 2024-01-01, 30d
+    Онбординг           :a2, after a1, 20d
+    section Email
+    Обработка           :b1, 2024-01-15, 14d
+    Категоризация       :b2, after b1, 10d
+    section CRM
+    Интеграция          :c1, 2024-02-01, 21d
+```
+
+</details>
+
+---
+
+## 🚀 Потенциал развития
+
+<details open>
+<summary><h3>📈 Планы развития</h3></summary>
+
+- 🔄 Добавление новых интеграций
+- 🔧 Расширение функциональности
+- 🔗 Создание комбинированных решений
+- ⚡ Оптимизация производительности
+
+</details>
+
+---
+
+## 📜 Лицензия
+
+Распространяется под лицензией MIT. См. файл [LICENSE](LICENSE) для получения дополнительной информации.
+
+---
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=n8n-io/n8n&type=Date)](https://star-history.com/#n8n-io/n8n&Date)
+
+**Сделано с ❤️ для сообщества n8n**
+
+</div>
+
+        
